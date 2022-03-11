@@ -59,8 +59,8 @@ a, a:hover {
 
 .dsmovie-card{
     
-    width: 360px;
-    height: 400px;
+    width: 100%;
+    
     
 }
 .dsmovie-card img {
@@ -71,9 +71,12 @@ a, a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 0 20px 0;
+    justify-content: space-between;
+    padding: 10px 20px 20px 20px;
     background-color: var(--white);
     border-radius: 0 0 8px 8px ;
+    min-height: 150px;
+
 
 }
 .dsmovie-card-description h3{
@@ -81,10 +84,11 @@ a, a:hover {
     font-family: Open sans-serif;
     font-size: 14px;
     font-weight: 700;
+    text-align: center;
 
 }
 .dsmovie-btn, .dsmovie-btn:hover{
-    width: 180px;
+    width: 50%;
     height: 40px;
     background-color: var(--color-primary);
     color: var(--white);
