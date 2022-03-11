@@ -4,6 +4,7 @@
     --bg-gray: #ddd; /* variavel para backgroud*/
     --color-primary: #9b92e7; /*variavel para cor da navegação*/
     --white: #fff;
+    --textgray:#4a4a4a;
 }
 * {
     box-sizing: border-box;
@@ -40,7 +41,7 @@ nav a{
 
 a, a:hover {
     text-decoration: none;
-    color: inherit;
+    color: unset;
 }
 .dsmovi-contact-container{
     display: flex;
@@ -49,4 +50,50 @@ a, a:hover {
 }
 .dsmovi-contact-container img{
     margin-right: 10px;
+    
+}
+
+#dsmovie-card-list{
+    padding: 40px 0;
+}
+
+.dsmovie-card{
+    
+    width: 360px;
+    height: 400px;
+    
+}
+.dsmovie-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.dsmovie-card-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 20px 0;
+    background-color: var(--white);
+    border-radius: 0 0 8px 8px ;
+
+}
+.dsmovie-card-description h3{
+    margin-bottom: 25px;
+    font-family: Open sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.dsmovie-btn, .dsmovie-btn:hover{
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+    
 }
