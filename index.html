@@ -27,9 +27,25 @@
     <main> <!--Conteudo principal-->
         <section id="dsmovie-card-list" class="container">
 
+            <div class="dsmovie-pagination-container">
+
+                <div class="dsmovie-pagination-box">
+                    <button disabled> 
+                        <img src="img/arrow.svg" alt="Voltar"> 
+                    </button>
+
+                    <p> 1 de 23</p>
+
+                    <button >
+                        <img class="dsmovie-flip-horizontal" src="img/arrow.svg" alt="Próximo"> 
+                    </button>
+
+                </div>
+            </div>
+
             <div class="row">
 
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-3"> <!-- aqui foi usado o "Grid system" e "breakpoint" do Bootstrap, que diz como o card vai se comportar com cada tamanho de tela-->
 
                     <div class="dsmovie-card">
                         <img  src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/1F2RnXLc0fmRt7iWfBK4mNVsjno.jpg" alt="Teen Wolf">
